@@ -1,0 +1,200 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 11, 2025, 3:20:44 PM
+    Author     : Professor
+*/
+
+
+.left-nav li:hover{
+    background-color: #f8c8dc;
+}
+.left-nav li:active{
+    background-color: #e6a4c7;
+}
+
+body{
+    background-color: #ffccff;
+    font-family: 'Calibri';
+    background-image: url(12.png);
+    background-size: 1920px 990px;
+    background-repeat: no-repeat;
+}
+
+.registration-form{
+    background-color: #6a0dad77;
+    padding:1em;
+    width: 30%;
+    margin: 2em auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #a64ca6;
+}
+
+input{
+    display: block;
+    width: 90%;
+    margin: .5em auto;
+    padding: .5em;
+    margin-top: .1em;
+    border-radius: 5px;
+    border:solid 1px #ffc0cb;
+}
+
+label{
+    font-size: .8em;
+    color: #6a0dad;
+}
+
+input[type='submit']{
+    background-color: #ff66cc;
+    color: #ffffff;
+    margin: auto 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+input[type='submit']:hover{
+    background-color: #cc33aa;
+}
+
+.navbar{
+  background-color: #f8c8dc;
+  box-shadow: 2px 2px 6px #a64ca6;  
+  text-align: center;
+}
+
+.right-nav{
+  text-align: right;
+  display: inline-block;
+  width: 25%;
+  margin: 0px;
+}
+.right-nav li{
+   list-style-type: none;
+   display: inline-block;
+   padding: 1em;
+}
+.right-nav li:hover{
+    background-color: #f8c8dc;
+}
+.right-nav li:active{
+    background-color: #e6a4c7;
+}
+
+.left-nav{
+  text-align: left;
+  display: inline-block;
+  width: 65%;
+  margin: 0px;
+}
+.left-nav li{
+   list-style-type: none;
+   display: inline-block;
+   padding: 1em;
+}
+
+.logo{
+    background-image: url('logo2.png');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1em;
+}
+
+a{
+   text-decoration: none;
+   color: #800080;
+}
+
+.title{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: #6a0dad;
+}
+
+.alert{
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+    color: #ff4d94;
+}
+
+.container{
+    width:90%;
+    overflow: hidden;
+    position: relative;
+    margin:auto;
+    margin-top: 15px;
+    background-color: #ffe6f2;
+    min-height: 40vh;
+}
+
+.banner{
+    min-height: 35vh;
+    position: relative;
+    background-image: url('covers.png');
+    background-size: 1400px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-pic{
+    background-color: #ffffff;
+    width: 25vh;
+    height: 24vh;
+    border-radius: 100px;
+    position: center;
+    top: 10vh;
+    left: 10vh;
+    background-image: url('profile.png');
+    background-size: 50px;
+    border: 3px solid #ff66cc;
+}
+
+#name{ 
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top:15vh;
+    left: 33vh;
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #cc33aa;
+}
+
+.post-container{
+    width: 100%;
+    margin: auto;
+    margin-top:10vh;
+    box-sizing: border-box;
+}
+
+#post{
+    width: 100%;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+#post-area{    
+    width: 90%;
+    height: 3em;
+    resize: none;
+    margin: auto 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid #ff99cc;
+}
+
+.account-post{
+    border:.1em solid #cc66cc;
+    margin: .5em;
+    padding: 1em;
+    background-color: #fff0f5;
+}
+
+.account-name{
+    font-weight: bold;
+    color: #cc33aa;
+}
